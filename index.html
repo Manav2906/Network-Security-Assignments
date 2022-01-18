@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practical Assignment - 0</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="javascript.js" defer></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <!-- Headers -->
+  <section id="contact">
+    <div class="section-content">
+        <h1 class="section-header"> <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s">PA-0: Atbash Cipher</span></h1>
+        <h3>By <b>Manav Jain (18074021) </b></h3>
+    </div>
+
+    <div class="contact-section">
+      <div class="container">
+
+          <div class="col-md-6 form-inline">
+            <div class="form-group"> 
+              <label for ="from">Plain Text</label>
+            </div>
+
+            <!-- input for plain text -->
+            <div class="form-group">
+              <textarea 
+                type="textarea"
+                class="form-control" 
+                id="plainText"
+                placeholder="Enter plain text here"
+                onkeyup="encryption()"
+                value=""
+              ></textarea>
+            </div>
+          </div>
+            
+          <!-- output for cipher text -->
+          <div class="col-md-6">
+            <div class="form-group"> 
+              <label for ="from">Cipher Text</label>
+            </div>
+
+            <div class="form-group">
+              <textarea 
+                type="textarea"
+                class="form-control" 
+                id="cipherText"
+                placeholder="Cipher text here"
+                onkeyup="decryption()"
+                value=""
+              ></textarea>
+            </div>
+          </div>
+      
+      </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container" id="app">
+      <div class="window-box">
+        <div class="window">
+          <h2 style="margin-bottom: 15px;">Plain Text</h2>
+            <textarea
+              type="textarea"
+              id="plainText"
+              placeholder="Enter plain text here"
+              onkeyup="encryption()"
+
+              value=""
+            ></textarea>
+        </div>
+      </div>
+
+      <div class="window-box">
+        <div class="window">
+          <h2 style="margin-bottom: 15px;">Cipher Text</h2>
+            <textarea
+              type="textarea"
+              id="cipherText"
+              placeholder="Enter cipher text here"
+              onkeyup="decryption()"
+              value=""
+            ></textarea>
+        </div>
+      </div>
+    </div> -->
+
+</section>
+  <!--/body-->
+</html>
